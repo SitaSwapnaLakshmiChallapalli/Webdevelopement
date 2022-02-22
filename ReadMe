@@ -1,0 +1,32 @@
+We can execute the code either using putty or browser.
+
+Connect to local host
+Enter "localhost/sc1236.html" - you will be able to view the home page
+
+sc1236.html:
+
+Enter the details of the customer who want to checkin their details:
+Enter First Name, Choose Room Type, Email id and Gender and click Submit.
+Incase if you feel any of the details are incorrect while entering the details, click clear.
+Again you can start filling up your form.
+
+Once all the details are correctly entered, your page is redirected to "sc1236.php" page.
+
+sc1236.php:
+
+In this page you can view the currently entered customer details and below to the page,
+you can view the records of the previous customers who visited the hotel.
+
+In sc1236.php , the records of the previous customers are redirected to sc1236.txt file for retaining
+the data of previously entered customers.
+
+In sc1236.html page, if any of the details are not entered then a ERROR message is displayed on the sc1236.php page
+that " Enter all the details" along with a reference "Try again" link which will redirect to sc1236.html page where
+customer can enter the missing details again.
+
+Execution: 
+sc1236.html - http://students.cse.unt.edu/~sc1236/phpMyAdmin/SECUREHW/sc1236.html
+sc1236.php  - http://students.cse.unt.edu/~sc1236/phpMyAdmin/SECUREHW/sc1236.php
+
+
+
