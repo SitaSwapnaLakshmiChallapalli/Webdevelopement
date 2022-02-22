@@ -1,0 +1,57 @@
+<html>
+<h1 align='center'> HOTEL MANAGEMENT SERVICES </h1>
+<br>
+<p> Hotels have been the one of the best places to live for a limited period. There are many Hotels built across to serve clients. Hotels have always been the combination of Lodging and restaurant services. The number of hotel services, as well as the number of people that work in them, is determined by the hotel's size and status. Other services provided to hotel guests can be considered perks. Laundry service, massage room, workout gyms, conference rooms, lock boxes for valuable valuables, and a variety of additional services are among them. These services can either be included in the lodging price or paid for individually. </p>
+<br>
+
+<hr>
+
+<h2 align='center'> HOME PAGE</h2>
+<body style="background-color:"red";font color="Black" font-family:="Verdana">
+<br><br><br><br>
+
+<style>
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+ }
+</style>
+<div class="imagealign" style="margin-right: 230px;">
+<img src="hotel.jpg" align="right">
+</div>
+<div style = "position:relative; left:150px;">
+<form action="sc1236.php" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" name="fname"><br><br>
+ 
+  <label for="Rooms">Choose Room Type</label>
+  <select id="Rooms" name="Rooms">
+    <option value="Luxury">Luxury</option>
+    <option value="Economical">Economical</option>
+    <option value="Premium">Premium</option>
+    <option value="BusinessClass">BusinessClass</option>
+  </select><br>
+</div>
+<div style = "position:relative; left:150px;">
+<label for="email">Enter your emailId:</label>
+<input type="text" name="email"
+ size="30"><br><br>
+</div>
+
+<div style = "position:relative; left:290px;">
+<input type="radio" id="html" name="Gender" value="Male">Male</input>
+ <input type="radio" id="css" name="Gender" value="Female">Female</input>
+ <br><br><br>
+</div>
+
+<div style = "position:relative; left:250px;">
+<input type="reset" value="Clear" size="100"/>
+<input type="submit" value="Submit" size="100"/>
+</div>
+
+
+</form>
+</div>
+</body>
+</html>
